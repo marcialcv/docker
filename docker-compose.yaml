@@ -24,6 +24,7 @@ services:
     ports:
       # Expose the Gogo shell port so that users can easily access it from Docker host
       - "127.0.0.1:11311:11311"
+      - "127.0.0.1:8080:8080"
     volumes:
       - type: volume
         source: liferay-data
